@@ -74,7 +74,7 @@ namespace CtrekozsMusicPack
                 return config;
             }
         }
-        [OverwriteVanilla]
+        /*[OverwriteVanilla]
         public sealed class SanaeBgm : BgmTemplate
         {
             public override IdContainer GetId()
@@ -95,7 +95,7 @@ namespace CtrekozsMusicPack
                 config.LoopEnd = (float?)287;
                 return config;
             }
-        }
+        }*/
         [OverwriteVanilla]
         public sealed class RemiliaBgm : BgmTemplate
         {
@@ -110,7 +110,7 @@ namespace CtrekozsMusicPack
             public override BgmConfig MakeConfig()
             {
                 var config = BgmConfig.FromID(GetId());
-                config.TrackName = "Motherly Sea One with the Wind";
+                config.TrackName = "Scarlet Pressure";
                 config.Artist = "cobu";
                 config.Original = "septette for the dead princess";
                 config.LoopStart = (float?)80.9;
